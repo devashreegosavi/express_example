@@ -13,9 +13,10 @@ app.use((req, res, next) => {
 // route for handling requests from the Angular client
 app.get('/api/message', (req, res) => {
     res.json({ message: 
-            'Hello GEEKS FOR GEEKS Folks from the Express server!' });
+            'Hello first from the Express server!' });
 });
   
 app.listen(3000, () => {
     console.log('Server listening on port 3000');
 });
+
